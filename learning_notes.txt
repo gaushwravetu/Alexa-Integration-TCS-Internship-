@@ -1,0 +1,28 @@
+We have various packages in python which are used for speech recognition:
+	1. apiai
+	2. assemblyai
+	3. Google-cloud-speech
+	4. SpeechRecognition
+	5. Pocketsphinx
+	6. Watson-developer-cloud
+	7. wit
+
+We're are using speechRecognition here, In speech this package we have a class called "Recognizer class".
+Recognizer class: It has instances which are used to recognize speeches. Each instances has 7 different methods to recognize speech from any audio source using various APIs.
+	recognize_bing(): microsoft bing api
+	recognize_google(): google api
+	recognize_google_cloud(): require installation of google cloud speech package
+	recognize_houndify(): api made by soundhound
+	recognize_ibm(): ibm speech to text method
+	recognize_sphinx(): required installation of pocketsphinx, used to run speech recognition module offline as well.
+	recognize_wit(): module from witai package.
+
+
+Working with Microphone: To work with microphone we will have to install PyAudio package in python.
+	Microphone class: To record audio using the microphone we will have a microphone class. It will take input from microphone itself without using any audio file.
+
+Use Case on which i worked:
+	Converting speech to text using speech recognition
+	Using the text to open a URL using web browser
+	Searching a query using speech inside the URL.
+	
